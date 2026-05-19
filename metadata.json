@@ -1,0 +1,6 @@
+{
+  "name": "Gachami's Gen Store",
+  "description": "Hardware and tools catalog website for Gachami's Gen Store in Nanyuki.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
