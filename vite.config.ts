@@ -5,6 +5,10 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // If you are deploying to https://<username>.github.io/<repo-name>/
+    // you must set base to '/<repo-name>/'. If you are deploying to a custom domain
+    // or https://<username>.github.io/ then leave this as '/'
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
